@@ -1,0 +1,35 @@
+body{
+    background-color: #f2f3f5;
+}
+
+.topBar{
+    background-color: #0b0b31;
+}
+
+.mainImage{
+    width: 100%;
+}
+
+.btn{
+    background-color: #0b0b31;
+    color: white;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.col-7 button{
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+.bottomMain{
+    background-color:#121d28 ;
+}
+
+.text-secondary li{
+    list-style: ⚙️;
+}
+
+.bottomButton{
+    background-color: #213349;
+}
