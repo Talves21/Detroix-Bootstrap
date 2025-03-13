@@ -6,6 +6,14 @@ body{
     background-color: #0b0b31;
 }
 
+.navButtons .btn{
+    margin-top: 35px;
+}
+
+.navButtons .btn:hover{
+    background-color: gray;
+}
+
 .mainImage{
     width: 100%;
 }
@@ -22,14 +30,42 @@ body{
     border-radius: 50%;
 }
 
-.bottomMain{
-    background-color:#121d28 ;
+.btn-lg:hover{
+    background-color: gray;
 }
 
-.text-secondary li{
-    list-style: ⚙️;
+.bottomMain{
+    background-color: #14202c;
+}
+
+.services ul{
+    list-style:"⚙️";
 }
 
 .bottomButton{
     background-color: #213349;
+}
+
+.bottomButton:hover{
+    background-color: gray;
+}
+
+.opportunities ul{
+    list-style: "🗨️";
+}
+
+.news li:nth-child(1){
+    list-style-image: url(../images/Date1.png);
+}
+
+.news li:nth-child(2){
+    list-style-image: url(../images/Date2.png);
+}
+
+.news li:nth-child(3){
+    list-style-image:url(../images/Date3.png) ;
+}
+
+footer{
+    background-color: #0e1e31;
 }
